@@ -1,1 +1,14 @@
-a
+Fuction이란 어떤 기능을 가지고 계속해서 반복할 수 있는 것.
+적용하고자 하는 기능을 가지고 계속해서 재사용할 수 있는것이다. 
+ex) 로그인, 게임에서 특정키 입력 등.
+
+ print(), type()의 기능은 Python Standard Library에서 기본적으로 import되는 기능임.
+ https://docs.python.org/3/library/functions.html
+ 
+ age = "18" // 18은 문자열값
+ n_age = int(age)
+ print(type(age)) // <class 'num'> 이 출력됨
+
+== int()는 해당 변수의 데이터 타입을 int(정수형)로 바꿔주는 기능임.
+
+이런 식으로 Python의 기능을 사용할 수 있음.
