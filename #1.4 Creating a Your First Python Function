@@ -1,0 +1,13 @@
+Function은 만들기보다 정의한다고 표현한다.
+
+def say_hello(): // say_hello 라는 기능을 정의함.
+  print("hello") // say_hello 라는 기능은 print("Hello")라는 명령을 수행함.
+
+* Python은 들여쓰기로 function의 body를 구분함. 따라서 
+def say_hello():
+  print("hello")
+print("bye")
+
+say_hello()
+이렇게 작성하면 print("bye")만 출력됨.
+또한 function은 반드시 ()로 끝나야 실행이 됨.
