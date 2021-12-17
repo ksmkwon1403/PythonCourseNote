@@ -1,0 +1,24 @@
+Function에는 input을 넣어줄 수 있도록 할 수 있다.
+
+def say_hello(who):
+  print("hello", who)
+
+say_hello(nicolas)
+
+> hello nicolas 출력
+
+
+def plus(a,b):
+  print(a + b)
+
+plus(2, 5)
+> 7 출력
+
+
+def plus(a,b=0): // b에 기본값으로 0을 넣음. 만약 실행시 b를 지정하지 않으면 0으로 계산됨
+  print(a + b)
+
+plus(2)
+> 2
+
+대부분의 Function은 input을 필요로 함!
