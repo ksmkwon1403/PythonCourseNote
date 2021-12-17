@@ -1,0 +1,29 @@
+def p_plus(a, b):
+  print(a + b)
+
+def r_plus(a, b):
+  return a + b
+
+p_result = p_plus(2,3)
+r_result = r_plus(2,3)
+
+print(p_result, r_result)
+
+> 5
+> None 5
+
+return은 특정 실행값의 결과를 변수에 넣어준다. return을 하지 않은 명령결과는 남지 않는다(None).
+
+
+def r_plus(a, b):
+  return a + b
+  print("asdfasdf", True)
+
+r_result = r_plus(2,4)
+
+print(r_result)
+
+또한 return은 명령을 종료한다. return 아래로 작성된 명령은 실행되지 않는다. 
+따라서 한번에 오직 하나의 값만 return할 수 있다.
+
+Python은 print의 결과값을 기억하지 않으니 Function을 정의할 때는 return을 사용하고, 최종 결과값만을 print하기.
