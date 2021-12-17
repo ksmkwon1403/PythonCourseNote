@@ -1,0 +1,41 @@
+지금까지 사용된 인자는 Positional Argument(인자)임.
+때때로 우리는 Keyworded Argument를 사용할 수 있음. 인자의 위치를 신경쓰지 않고 이름만 신경쓰면 된다는 의미.
+
+def plus(a, b):
+  return a + b
+
+result = plus(b=30, a=1)
+print(result)
+
+> 31
+
+
+def say_hello(name, age):
+  return "Hello name you are age years old"
+
+hello = say_hello("Nico", "12")
+print(hello)
+
+> Hello name you are age years old 가 출력되게 됨.
+만약 string 안에 변수를 포함시키려면 f를 string앞에 붙여쓰고 변수명을 {}로 감싸주면 됨.
+
+def say_hello(name, age):
+  return f"Hello {name} you are {age} years old"
+
+hello = say_hello("Nico", "12")
+print(hello)
+
+> Hello Nico you are 12 years old 가 출력됨. 변수가 제대로 반영되었음을 볼 수 있다. 
+또는 
+
+def say_hello(name, age):
+  return "Hello " + name + " you are " + age + " years old"
+
+hello = say_hello("Nico", "12")
+print(hello)
+
+> Hello Nico you are 12 years old 가 출력됨. 문자열끼리 + 를 사용해서 붙여줄 수 있음.
+하지만 첫번째 방법이 더 효율적임.
+
+Keyworded Argument를 앞으로 많이 쓰게 될 것이다. 인자의 갯수가 1~2개라면 괜찮지만 3개가 넘어가면 순서를 헷갈리기 쉬움. 
+순서에 상관없이 이름에 직접적으로 대입하면 오류 없이 편하게 코딩할 수 있을 것이다. 
