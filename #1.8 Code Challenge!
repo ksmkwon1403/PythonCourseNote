@@ -1,0 +1,80 @@
+이번 목표는 Code Challenge를 완성하는 것이다. 
+
+지금까지 배운 것으로 사칙연산, 음수계산, 승(xⁿ)계산이 가능한 계산기를 만들면 된다. 
+
+사용자의 착오로 문자열을 입력할 수 있으므로 int function으로 입력값을 한번 정류해주었다. 
+
+
+def plus(a, b):
+  a = int(a)
+  b = int(b)
+
+  plus_result = a + b
+
+  print(f"{a}+{b}={plus_result}")
+
+plus(100, 9)
+
+
+def minus(a, b):
+  a = int(a)
+  b = int(b)
+
+  minus_result = a - b
+
+  print(f"{a}-{b}={minus_result}")
+
+minus(100, 9)
+
+
+def time(a, b):
+  a = int(a)
+  b = int(b)
+
+  time_result = a * b
+
+  print(f"{a}*{b}={time_result}")
+
+time(100, 9)
+
+
+def division(a, b):
+  a = int(a)
+  b = int(b)
+
+  division_result = a / b
+
+  print(f"{a}/{b}={division_result}")
+
+division(100, 9)
+
+
+def negation(a):
+  a = int(a)
+
+  negation_result = -a
+
+  print(f"negation of {a}={negation_result}")
+
+negation(100)
+
+
+def power(a, b):
+  a = int(a)
+  b = int(b)
+
+  power_result = a ** b
+
+  print(f"{a}**{b}={power_result}")
+
+power(2, 9)
+
+
+이 코드의 실행 결과는:
+100+9=109
+100-9=91
+100*9=900
+100/9=11.11111111111111
+negation of 100=-100
+2**9=512
+이렇게 실행되는 것을 볼 수 있다.
