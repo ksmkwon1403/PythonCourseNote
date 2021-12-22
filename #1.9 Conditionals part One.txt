@@ -1,0 +1,10 @@
+Conditional 구문은 어떠한 조건이 True일 때, 다음 값을 실행/반환하고
+False일 경우에는 다음 조건문으로 넘어간다. 
+
+def plus(a, b):
+    if type(b) is str: # str은 String Type을 뜻함.
+        return None
+    else
+        return a + b
+
+plus(12, "10")
