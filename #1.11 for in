@@ -1,0 +1,21 @@
+for 문은 특정 조건을 만족시킬 때까지 Loop를 돌리는 조건문이다.
+
+for x in [list]
+	print(x)
+	
+x는 변수이고, 실행될 때 x가 list의 값으로 치환됨.
+
+
+days = ("Mon", "Tue", "Wed", "Thu", "Fri")
+
+for day in days:
+  if day == "Wed":
+    break
+  else:
+    print(day)
+
+> Mon
+> Tue
+
+day가 Wed가 되기 전까지 else문을 돌린다.
+else문은 list의 항목들을 출력한다.
