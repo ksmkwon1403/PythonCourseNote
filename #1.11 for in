@@ -1,10 +1,26 @@
-for 문은 특정 조건을 만족시킬 때까지 Loop를 돌리는 조건문이다.
+for 문은 Loop를 돌리는 조건문이다.
+보통 if와 elif, else와 함께 쓴다.
 
-for x in [list]
+for x in [sequence]
 	print(x)
 	
-x는 변수이고, 실행될 때 x가 list의 값으로 치환됨.
+x는 변수이고, 실행될 때 x가 sequence의 값으로 치환됨. 미리 지정해준 변수가 아니라는 것에 유의!
+sequence는 string, tuple, list가 있음.
+https://docs.python.org/3/reference/compound_stmts.html
 
+string도 sequence인데, 예를 들면
+
+for letter in "nicolas":
+  print(letter)
+
+> n
+> i
+> c
+> o
+> l
+> a
+> s
+각 글자 한개씩 실행됨.
 
 days = ("Mon", "Tue", "Wed", "Thu", "Fri")
 
@@ -18,4 +34,4 @@ for day in days:
 > Tue
 
 day가 Wed가 되기 전까지 else문을 돌린다.
-else문은 list의 항목들을 출력한다.
+else문은 sequence의 항목들을 출력한다.
