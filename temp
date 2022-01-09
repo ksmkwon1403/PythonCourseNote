@@ -26,3 +26,5 @@ print(division("9","3"))
 print(negation("-3"))
 print(power("10",2))
 print(remainder("9","3"))
+
+test
