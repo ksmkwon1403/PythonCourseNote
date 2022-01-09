@@ -20,3 +20,4 @@ https://docs.python-requests.org/en/latest/
 
 추출하기 위해서 사용하는 것이 beautyful soup라는 패키지이다. "pip install beautyfulsoup4"
 
+다음 강에서는 최대 페이지를 알려줘서 끝 페이지까지 scrap할 수 있도록 할 것이다.
